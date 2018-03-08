@@ -31,9 +31,9 @@
             this.label1 = new System.Windows.Forms.Label();
             this.lblTile = new System.Windows.Forms.Label();
             this.btnStart = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.lblDelete = new System.Windows.Forms.Label();
+            this.picStart = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picStart)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -69,23 +69,23 @@
             this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label2
+            // lblDelete
             // 
-            this.label2.Location = new System.Drawing.Point(290, 142);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(262, 143);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
+            this.lblDelete.Location = new System.Drawing.Point(290, 142);
+            this.lblDelete.Name = "lblDelete";
+            this.lblDelete.Size = new System.Drawing.Size(262, 143);
+            this.lblDelete.TabIndex = 3;
+            this.lblDelete.Text = "label2";
             // 
-            // pictureBox1
+            // picStart
             // 
-            this.pictureBox1.Image = global::Final_Game.Properties.Resources.images;
-            this.pictureBox1.Location = new System.Drawing.Point(434, 169);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(340, 261);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.picStart.Image = global::Final_Game.Properties.Resources.images;
+            this.picStart.Location = new System.Drawing.Point(434, 169);
+            this.picStart.Name = "picStart";
+            this.picStart.Size = new System.Drawing.Size(340, 261);
+            this.picStart.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picStart.TabIndex = 4;
+            this.picStart.TabStop = false;
             // 
             // Form1
             // 
@@ -95,15 +95,15 @@
             this.BackgroundImage = global::Final_Game.Properties.Resources.images;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(786, 442);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.picStart);
+            this.Controls.Add(this.lblDelete);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.lblTile);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picStart)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -114,8 +114,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblTile;
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblDelete;
+        private System.Windows.Forms.PictureBox picStart;
     }
 }
 
