@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E553270B-F575-406D-9745-EB0F4C45539D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>gameStart</RootNamespace>
+    <AssemblyName>finalGameWork</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classesAndStorylines\assassinWork\assassinStoryCastle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\assassinWork\assassinStoryCastle.Designer.cs">
+      <DependentUpon>assassinStoryCastle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\assassinWork\assassinStoryForest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\assassinWork\assassinStoryForest.Designer.cs">
+      <DependentUpon>assassinStoryForest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\orcWork\orcStoryCastle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\orcWork\orcStoryCastle.Designer.cs">
+      <DependentUpon>orcStoryCastle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\orcWork\orcStoryForest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\orcWork\orcStoryForest.Designer.cs">
+      <DependentUpon>orcStoryForest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="startScreens\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startScreens\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="startScreens\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startScreens\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="startScreens\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="startScreens\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\knightStoryCastle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\knightStoryCastle.Designer.cs">
+      <DependentUpon>knightStoryCastle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\knightStoryForest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\knightStoryForest.Designer.cs">
+      <DependentUpon>knightStoryForest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\assassinWork\locationStartAssassin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\assassinWork\locationStartAssassin.Designer.cs">
+      <DependentUpon>locationStartAssassin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\locationStartKnight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\locationStartKnight.Designer.cs">
+      <DependentUpon>locationStartKnight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\mageWork\locationStartMage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\mageWork\locationStartMage.Designer.cs">
+      <DependentUpon>locationStartMage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\orcWork\locationStartOrc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\orcWork\locationStartOrc.Designer.cs">
+      <DependentUpon>locationStartOrc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\mageWork\mageStoryCastle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\mageWork\mageStoryCastle.Designer.cs">
+      <DependentUpon>mageStoryCastle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\mageWork\mageStoryForest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\mageWork\mageStoryForest.Designer.cs">
+      <DependentUpon>mageStoryForest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="startScreens\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startScreens\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="startScreens\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\knightWork\knightStoryCastle.resx">
+      <DependentUpon>knightStoryCastle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\knightWork\knightStoryForest.resx">
+      <DependentUpon>knightStoryForest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\assassinWork\locationStartAssassin.resx">
+      <DependentUpon>locationStartAssassin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\knightWork\locationStartKnight.resx">
+      <DependentUpon>locationStartKnight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\mageWork\locationStartMage.resx">
+      <DependentUpon>locationStartMage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\orcWork\locationStartOrc.resx">
+      <DependentUpon>locationStartOrc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\mageWork\mageStoryCastle.resx">
+      <DependentUpon>mageStoryCastle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\magePicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\knightPicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\orcPicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\assassinPicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\forestStart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\castleStart.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
