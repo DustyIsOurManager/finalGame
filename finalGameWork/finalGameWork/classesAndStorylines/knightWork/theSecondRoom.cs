@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace gameStart.classesAndStorylines.knightWork
 {
-    public partial class backDoor : Form
+    public partial class theSecondRoom : Form
     {
-        public backDoor()
+        public theSecondRoom()
         {
             InitializeComponent();
-        }
-
-        private void btnRoomTwo_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

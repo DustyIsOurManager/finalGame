@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btnFirstRoom1 = new System.Windows.Forms.Button();
+            this.btnFirstRoom2 = new System.Windows.Forms.Button();
+            this.btnFirstRoom4 = new System.Windows.Forms.Button();
+            this.btnFirstRoom3 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -47,41 +47,45 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Enter the first room";
             // 
-            // button1
+            // btnFirstRoom1
             // 
-            this.button1.Location = new System.Drawing.Point(44, 91);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 66);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnFirstRoom1.Location = new System.Drawing.Point(44, 91);
+            this.btnFirstRoom1.Name = "btnFirstRoom1";
+            this.btnFirstRoom1.Size = new System.Drawing.Size(180, 66);
+            this.btnFirstRoom1.TabIndex = 1;
+            this.btnFirstRoom1.Text = "You go down";
+            this.btnFirstRoom1.UseVisualStyleBackColor = true;
+            this.btnFirstRoom1.Click += new System.EventHandler(this.btnFirstRoom1_Click);
             // 
-            // button2
+            // btnFirstRoom2
             // 
-            this.button2.Location = new System.Drawing.Point(277, 91);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(188, 66);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnFirstRoom2.Location = new System.Drawing.Point(277, 91);
+            this.btnFirstRoom2.Name = "btnFirstRoom2";
+            this.btnFirstRoom2.Size = new System.Drawing.Size(188, 66);
+            this.btnFirstRoom2.TabIndex = 2;
+            this.btnFirstRoom2.Text = "Exit and enter the second room";
+            this.btnFirstRoom2.UseVisualStyleBackColor = true;
+            this.btnFirstRoom2.Click += new System.EventHandler(this.btnFirstRoom2_Click);
             // 
-            // button3
+            // btnFirstRoom4
             // 
-            this.button3.Location = new System.Drawing.Point(277, 172);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(188, 66);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnFirstRoom4.Location = new System.Drawing.Point(277, 172);
+            this.btnFirstRoom4.Name = "btnFirstRoom4";
+            this.btnFirstRoom4.Size = new System.Drawing.Size(188, 66);
+            this.btnFirstRoom4.TabIndex = 3;
+            this.btnFirstRoom4.Text = "Exit and go up the long staircase";
+            this.btnFirstRoom4.UseVisualStyleBackColor = true;
+            this.btnFirstRoom4.Click += new System.EventHandler(this.btnFirstRoom4_Click);
             // 
-            // button4
+            // btnFirstRoom3
             // 
-            this.button4.Location = new System.Drawing.Point(44, 172);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(180, 66);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnFirstRoom3.Location = new System.Drawing.Point(44, 172);
+            this.btnFirstRoom3.Name = "btnFirstRoom3";
+            this.btnFirstRoom3.Size = new System.Drawing.Size(180, 66);
+            this.btnFirstRoom3.TabIndex = 4;
+            this.btnFirstRoom3.Text = "Exite and Enter the third room";
+            this.btnFirstRoom3.UseVisualStyleBackColor = true;
+            this.btnFirstRoom3.Click += new System.EventHandler(this.btnFirstRoom3_Click);
             // 
             // label2
             // 
@@ -107,13 +111,13 @@
             this.ClientSize = new System.Drawing.Size(521, 250);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnFirstRoom3);
+            this.Controls.Add(this.btnFirstRoom4);
+            this.Controls.Add(this.btnFirstRoom2);
+            this.Controls.Add(this.btnFirstRoom1);
             this.Controls.Add(this.label1);
             this.Name = "theFirstRoom";
-            this.Text = "Form1";
+            this.Text = "theFirstRoom";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -122,10 +126,10 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnFirstRoom1;
+        private System.Windows.Forms.Button btnFirstRoom2;
+        private System.Windows.Forms.Button btnFirstRoom4;
+        private System.Windows.Forms.Button btnFirstRoom3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
     }

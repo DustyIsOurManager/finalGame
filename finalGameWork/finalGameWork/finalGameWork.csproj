@@ -56,6 +56,25 @@
     <Compile Include="classesAndStorylines\assassinWork\assassinStoryForest.Designer.cs">
       <DependentUpon>assassinStoryForest.cs</DependentUpon>
     </Compile>
+    <Compile Include="classesAndStorylines\knightWork\backDoor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\backDoor.Designer.cs">
+      <DependentUpon>backDoor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\frontDoor_2.cs" />
+    <Compile Include="classesAndStorylines\knightWork\theFirstRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\theFirstRoom.Designer.cs">
+      <DependentUpon>theFirstRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\frontDoor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\frontDoor.Designer.cs">
+      <DependentUpon>frontDoor.cs</DependentUpon>
+    </Compile>
     <Compile Include="classesAndStorylines\orcWork\orcStoryCastle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +160,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="classesAndStorylines\knightWork\backDoor.resx">
+      <DependentUpon>backDoor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\knightWork\theFirstRoom.resx">
+      <DependentUpon>theFirstRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\knightWork\frontDoor.resx">
+      <DependentUpon>frontDoor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="startScreens\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

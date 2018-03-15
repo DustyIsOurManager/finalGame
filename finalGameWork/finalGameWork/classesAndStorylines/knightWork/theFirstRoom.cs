@@ -16,5 +16,33 @@ namespace gameStart.classesAndStorylines.knightWork
         {
             InitializeComponent();
         }
+
+        private void btnFirstRoom1_Click(object sender, EventArgs e)
+        {
+            classesAndStorylines.knightWork.theFirstRoom f2 = new classesAndStorylines.knightWork.theFirstRoom();
+            f2.ShowDialog(); // Shows frontDoor1
+            this.Close();
+        }
+
+        private void btnFirstRoom2_Click(object sender, EventArgs e)
+        {
+            classesAndStorylines.knightWork.backDoor f2 = new classesAndStorylines.knightWork.backDoor();
+            f2.ShowDialog(); // Shows frontDoor1
+            this.Close();
+        }
+
+        private void btnFirstRoom3_Click(object sender, EventArgs e)
+        {
+            classesAndStorylines.knightWork.backDoor f2 = new classesAndStorylines.knightWork.backDoor();
+            f2.ShowDialog(); // Shows frontDoor1
+            this.Close();
+        }
+
+        private void btnFirstRoom4_Click(object sender, EventArgs e)
+        {
+            classesAndStorylines.knightWork.backDoor f2 = new classesAndStorylines.knightWork.backDoor();
+            f2.ShowDialog(); // Shows frontDoor1
+            this.Close();
+        }
     }
 }

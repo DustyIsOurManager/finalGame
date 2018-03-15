@@ -80,6 +80,7 @@
             this.btnRoomTwo.TabIndex = 4;
             this.btnRoomTwo.Text = "Enter the second room";
             this.btnRoomTwo.UseVisualStyleBackColor = true;
+            this.btnRoomTwo.Click += new System.EventHandler(this.btnRoomTwo_Click);
             // 
             // backDoor
             // 

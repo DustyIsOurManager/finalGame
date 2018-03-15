@@ -24,16 +24,18 @@ namespace gameStart
 
         private void btnEndGame_Click(object sender, EventArgs e)
         {
-            //frontDoor f3 = new frontDoor();
-            f3.Show();
+            classesAndStorylines.knightWork.frontDoor f2 = new classesAndStorylines.knightWork.frontDoor();
+            f2.ShowDialog(); // Shows frontDoor1
             this.Close();
+        
         }
 
         private void btnBackDoor_Click(object sender, EventArgs e)
         {
-            backDoor backDoor = new backDoor();
-            backDoor.ShowDialog(); 
+            classesAndStorylines.knightWork.backDoor f2 = new classesAndStorylines.knightWork.backDoor();
+            f2.ShowDialog(); // Shows frontDoor1
             this.Close();
+           
         }
 
 
