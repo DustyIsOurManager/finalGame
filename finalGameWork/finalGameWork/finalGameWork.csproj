@@ -68,6 +68,18 @@
     <Compile Include="classesAndStorylines\orcWork\orcStoryForest.Designer.cs">
       <DependentUpon>orcStoryForest.cs</DependentUpon>
     </Compile>
+    <Compile Include="classesAndStorylines\knightWork\knightPathContinue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\knightPathContinue.Designer.cs">
+      <DependentUpon>knightPathContinue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\endofPath.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\endofPath.Designer.cs">
+      <DependentUpon>endofPath.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -141,6 +153,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="classesAndStorylines\knightWork\knightPathContinue.resx">
+      <DependentUpon>knightPathContinue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\knightWork\endofPath.resx">
+      <DependentUpon>endofPath.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="startScreens\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -209,6 +227,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="resources\orcPicture.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\bearFight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\forestEnd.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

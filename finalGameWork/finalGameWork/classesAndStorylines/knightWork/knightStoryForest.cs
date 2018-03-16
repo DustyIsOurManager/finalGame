@@ -27,6 +27,13 @@ namespace gameStart
 
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            knightPathContinue knightPathContinue = new knightPathContinue();
+            knightPathContinue.ShowDialog(); // Shows the Knight location chooser
+            this.Close();
+        }
+
        
     }
 }

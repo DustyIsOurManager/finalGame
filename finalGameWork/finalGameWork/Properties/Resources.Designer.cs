@@ -73,9 +73,29 @@ namespace gameStart.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bearFight {
+            get {
+                object obj = ResourceManager.GetObject("bearFight", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap castleStart {
             get {
                 object obj = ResourceManager.GetObject("castleStart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap forestEnd {
+            get {
+                object obj = ResourceManager.GetObject("forestEnd", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
