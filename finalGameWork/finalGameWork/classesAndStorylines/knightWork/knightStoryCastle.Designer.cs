@@ -28,28 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnEndGame = new System.Windows.Forms.Button();
+            this.btnBackDoor = new System.Windows.Forms.Button();
             this.lblCastleStart = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnEndGame
             // 
-            this.button1.Location = new System.Drawing.Point(193, 373);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 50);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Go in through the front door";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnEndGame.Location = new System.Drawing.Point(193, 373);
+            this.btnEndGame.Name = "btnEndGame";
+            this.btnEndGame.Size = new System.Drawing.Size(160, 50);
+            this.btnEndGame.TabIndex = 0;
+            this.btnEndGame.Text = "Go in through the front door";
+            this.btnEndGame.UseVisualStyleBackColor = true;
+            this.btnEndGame.Click += new System.EventHandler(this.btnEndGame_Click);
             // 
-            // button2
+            // btnBackDoor
             // 
-            this.button2.Location = new System.Drawing.Point(550, 373);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(162, 50);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Make your way around to the back";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnBackDoor.Location = new System.Drawing.Point(550, 373);
+            this.btnBackDoor.Name = "btnBackDoor";
+            this.btnBackDoor.Size = new System.Drawing.Size(162, 50);
+            this.btnBackDoor.TabIndex = 1;
+            this.btnBackDoor.Text = "Make your way around to the back door\r\n";
+            this.btnBackDoor.UseVisualStyleBackColor = true;
+            this.btnBackDoor.Click += new System.EventHandler(this.btnBackDoor_Click);
             // 
             // lblCastleStart
             // 
@@ -66,8 +68,8 @@
             this.BackgroundImage = global::gameStart.Properties.Resources.castleStart;
             this.ClientSize = new System.Drawing.Size(969, 515);
             this.Controls.Add(this.lblCastleStart);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnBackDoor);
+            this.Controls.Add(this.btnEndGame);
             this.Name = "knightStoryCastle";
             this.Text = "knightStoryCastle";
             this.Load += new System.EventHandler(this.knightStoryCastle_Load);
@@ -78,8 +80,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnEndGame;
+        private System.Windows.Forms.Button btnBackDoor;
         private System.Windows.Forms.Label lblCastleStart;
     }
 }

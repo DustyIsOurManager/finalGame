@@ -56,11 +56,32 @@
     <Compile Include="classesAndStorylines\assassinWork\assassinStoryForest.Designer.cs">
       <DependentUpon>assassinStoryForest.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="classesAndStorylines\knightWork\FormKnight1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="classesAndStorylines\knightWork\FormKnight1.Designer.cs">
       <DependentUpon>FormKnight1.cs</DependentUpon>
+=======
+    <Compile Include="classesAndStorylines\knightWork\backDoor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\backDoor.Designer.cs">
+      <DependentUpon>backDoor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\frontDoor_2.cs" />
+    <Compile Include="classesAndStorylines\knightWork\theFirstRoom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\theFirstRoom.Designer.cs">
+      <DependentUpon>theFirstRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\frontDoor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\frontDoor.Designer.cs">
+      <DependentUpon>frontDoor.cs</DependentUpon>
+>>>>>>> 7ffa3edf87d8452648cc85827925d0b5af88b7e8
     </Compile>
     <Compile Include="classesAndStorylines\orcWork\orcStoryCastle.cs">
       <SubType>Form</SubType>
@@ -147,8 +168,19 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <EmbeddedResource Include="classesAndStorylines\knightWork\FormKnight1.resx">
       <DependentUpon>FormKnight1.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="classesAndStorylines\knightWork\backDoor.resx">
+      <DependentUpon>backDoor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\knightWork\theFirstRoom.resx">
+      <DependentUpon>theFirstRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="classesAndStorylines\knightWork\frontDoor.resx">
+      <DependentUpon>frontDoor.cs</DependentUpon>
+>>>>>>> 7ffa3edf87d8452648cc85827925d0b5af88b7e8
     </EmbeddedResource>
     <EmbeddedResource Include="startScreens\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
