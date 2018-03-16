@@ -100,7 +100,7 @@
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.label2);
             this.Name = "locationStartKnight";
-            this.Text = "locationStart";
+            this.Text = " ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);

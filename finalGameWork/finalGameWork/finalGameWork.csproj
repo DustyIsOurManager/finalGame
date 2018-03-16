@@ -56,6 +56,12 @@
     <Compile Include="classesAndStorylines\assassinWork\assassinStoryForest.Designer.cs">
       <DependentUpon>assassinStoryForest.cs</DependentUpon>
     </Compile>
+    <Compile Include="classesAndStorylines\knightWork\FormKnight1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="classesAndStorylines\knightWork\FormKnight1.Designer.cs">
+      <DependentUpon>FormKnight1.cs</DependentUpon>
+    </Compile>
     <Compile Include="classesAndStorylines\orcWork\orcStoryCastle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -141,6 +147,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="classesAndStorylines\knightWork\FormKnight1.resx">
+      <DependentUpon>FormKnight1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="startScreens\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
