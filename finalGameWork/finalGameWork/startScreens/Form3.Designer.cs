@@ -149,6 +149,7 @@
             this.Controls.Add(this.btnMage);
             this.Name = "Form3";
             this.Text = "Form3";
+           
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

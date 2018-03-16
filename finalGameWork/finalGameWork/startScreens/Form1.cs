@@ -23,6 +23,8 @@ namespace gameStart
         {
             Form2 f2 = new Form2();
             f2.ShowDialog(); // Shows Form2
+            Form1 f1 = new Form1();
+            this.Visible = false;
         }
 
         private void Form1_Load(object sender, EventArgs e)

@@ -21,27 +21,31 @@ namespace gameStart
         {
             locationStartMage locationMage = new locationStartMage();
             locationMage.ShowDialog(); // Shows the Mage location chooser
-            this.Close();
+            this.Visible = false;
         }
 
         private void btnKnight_Click(object sender, EventArgs e)
         {
             locationStartKnight locationKnight = new locationStartKnight();
             locationKnight.ShowDialog(); // Shows the Knight location chooser
-            this.Close();
+            Form3 f3 = new Form3();
+            f3.Visible = false;
         }
         private void btnOrc_Click_1(object sender, EventArgs e)
         {
             locationStartOrc locationOrc = new locationStartOrc();
             locationOrc.ShowDialog(); // Shows the Orc location chooser
-            this.Close();
+            Form3 f3 = new Form3();
+            f3.Visible = false;
         }
 
         private void btnAssassin_Click(object sender, EventArgs e)
         {
             locationStartAssassin locationAssassin = new locationStartAssassin();
             locationAssassin.ShowDialog(); // Shows the Assassin location chooser
-            this.Close();  
+            Form3 f3 = new Form3();
+            f3.Visible = false;
         }
+
     }
 }

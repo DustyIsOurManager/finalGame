@@ -23,6 +23,8 @@ namespace gameStart
         {
             Form3 characterChooseForm = new Form3();
             characterChooseForm.ShowDialog(); // Shows Form3 aka the character selection screen
+            Form2 f2 = new Form2();
+            f2.Visible = false;
         }
 
         private void Form2_Load(object sender, EventArgs e)

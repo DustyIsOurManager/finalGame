@@ -59,6 +59,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Take the sword and go home";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // endofPath
             // 
@@ -72,7 +73,6 @@
             this.Controls.Add(this.lblCountDown);
             this.Name = "endofPath";
             this.Text = "endofPath";
-            this.Load += new System.EventHandler(this.endofPath_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
